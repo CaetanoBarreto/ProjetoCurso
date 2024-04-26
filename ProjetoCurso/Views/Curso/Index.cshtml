@@ -1,0 +1,21 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Cadastro de Curso</title>
+    <script>
+        function exibirPopup() {
+            alert("Curso cadastrado com sucesso!");
+        }
+    </script>
+</head>
+<body>
+    <h1>Cadastro de Curso</h1>
+    <form onsubmit="exibirPopup()">
+        <label for="cursoNome">Nome do Curso:</label>
+        <input type="text" id="cursoNome" name="cursoNome"><br><br>
+        <label for="cursoDescricao">Descrição do Curso:</label><br>
+        <textarea id="cursoDescricao" name="cursoDescricao"></textarea><br><br>
+        <input type="submit" value="Cadastrar">
+    </form>
+</body>
+</html>
